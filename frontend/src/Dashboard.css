@@ -1,0 +1,98 @@
+.dashboard {
+  min-height: 100vh;
+  
+  color: white;
+  padding: 40px;
+  background:
+    radial-gradient(
+      circle at center,
+      rgba(141, 107, 255, 0.12),
+      transparent 60%
+    ),
+    radial-gradient(
+      circle at top,
+      #3b3561 0%,
+      #2a273d 35%,
+      #1e1b2e 100%
+    );
+}
+.dashcard {
+  max-width: 900px;
+  margin: auto;
+  background: #191728;
+  border-radius: 16px;
+  padding: 32px;
+  box-shadow:
+    0 30px 60px rgba(0, 0, 0, 0.6),
+    0 0 80px rgba(141, 107, 255, 0.15);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-family: monospace;
+  font-size: 40px;
+}
+
+table {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  border-collapse: collapse;
+  background: #191728;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+th {
+  padding: 14px;
+  background: #1f1c35;
+  color: #cfcaff;
+  text-align: left;
+  font-family: monospace;
+  font-size: 20px;
+}
+
+td {
+  padding: 14px;
+  border-bottom: 1px solid #2f2b4a;
+}
+
+button {
+  margin-right: 6px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+button:first-child {
+  background: #4caf50;
+  color: white;
+}
+
+button:last-child {
+  background: #f44336;
+  color: white;
+}
+
+.dashboard button:last-of-type {
+  margin-top: 30px;
+  background: #8d6bff;
+  padding: 12px 24px;
+}
+
+.status-success {
+  color: #4ade80;
+  font-weight: 500;
+}
+
+.status-pending {
+  color: #facc15;
+  font-weight: 500;
+}
+
+.status-failed {
+  color: #f87171;
+  font-weight: 500;
+}
