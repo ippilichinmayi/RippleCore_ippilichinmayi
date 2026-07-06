@@ -104,8 +104,6 @@ Install dependencies:
 npm install
 ```
 
-or
-
 ```bash
 npm install express cors qrcode razorpay
 ```
@@ -184,15 +182,15 @@ Payment status is automatically updated whenever Razorpay sends a webhook event.
 
 ### Home Page
 
-![Home](screenshots/home.png)
+![Home](home.jpeg)
 
 ### QR Code
 
-![QR](screenshots/qr.png)
+![QR](qr.jpeg)
 
 ### Dashboard
 
-![Dashboard](screenshots/dashboard.png)
+![Dashboard](dashboard.jpeg)
 
 ---
 
